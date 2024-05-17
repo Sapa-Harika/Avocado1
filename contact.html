@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+<style>body{
+  
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        height:550px;
+        width:100%; 
+        background-image:url(mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+     
+      
+ 
+ .navbar-section{
+  width:85%;
+  height:80px;
+  background-color: black;
+  display:flex;
+  border:1px solid white;
+  border-radius:20px;
+  margin:20px 20px 20px 100px;
+ 
+}
+
+.nav-left{
+  height:100px;
+  width:300px;
+  display: flex;
+  
+}
+.nav-left img{
+  height:75px;
+  width:80px;
+  margin:0px;
+  border-radius: 15px;
+  margin-left:20px;
+}
+.nav-mid{
+  height:100px;
+  width:800px;
+
+}
+.nav-mid ul{
+  width:800px;
+  margin:25px;
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-mid li{
+ 
+  font-weight: bold;
+  justify-content: space-around;
+}
+li a{
+  color:white;
+  font-size:15px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:aqua;
+
+}
+.nav-right{
+  height:100px;
+  width:300px;
+  justify-content: space-between;
+  margin:10px 20px 20px 70px;
+}
+.nav-right button{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+  color:red;
+ 
+  margin:10px;
+}
+.nav-right button:hover{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+  background-color: aqua;
+  color:black;
+  margin:10px;
+}
+.nav-right a{
+  text-decoration: none;
+  color:red;
+  font-weight: bold;
+  
+
+}
+.nav-right a:hover{
+  text-decoration: none;
+  color:black;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.nav-item1 .nav-left{
+  justify-content: space-around;
+}
+.navbar-section .navbar>li>a{
+color:white;
+text-transform: uppercase;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+ .ContactUs{
+    
+     height:550px;
+     width:500px;
+     padding-left:55px;
+     margin:40px 100px 0px 100px;
+     display: flex;
+ }
+
+ .name{
+    display: flex;
+ }
+ .fname input{
+    width:220px;
+     height:40px;
+    display: flex;
+    flex-direction: column;
+ }
+ .lname input
+ {width:220px;
+    height:40px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+ }
+ #name{
+     color:rgb(230, 230, 245);
+     font-size: 23px;
+ }
+ input{
+     width:455px;
+     height:40px;
+     border:2px solid white;
+     border-radius: 15px;
+ }
+ .msg{
+    width:455px;
+     height:80px;
+ }
+input:hover{
+    background-color:transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;/**/
+}
+#submit{
+    height:40px;
+    width:150px;
+    border-radius: 15px;
+    color:red;
+    font-size:20px;
+
+}
+.contact-right{
+  height:500px;
+  width:600px;
+}
+.contact-right img{
+  height:500px;
+  width:500px;
+  margin:30px 30px 30px 100px;
+}@media (max-width:2008px){
+	
+	.nav ul{
+		margin-right: 10px;
+        width: 100%;
+	}
+	.nav a{
+		font-size: 17px;
+	}
+}@media (max-width:509px){
+	body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin:0px;
+        height:1000px;
+        width:500px;
+    }
+    .navbar-section{
+      width:500px;
+      height:350px;
+      background-color: transparent;
+      display:flex;
+      flex-direction: column;
+      border:1px solid transparent;
+      border-radius:0px;
+      margin:0px;
+    }
+    .nav-left{
+      height:100px;
+      width:100px;
+      display: flex;
+    }
+    .nav-left img{
+      height:75px;
+      width:80px;
+      margin:0px;
+      border-radius: 15px;
+      margin-left:200px;
+    }
+    .nav-mid{
+      height:200px;
+      width:380px;
+      margin-left:150px;
+      padding:0;
+    }
+    .nav-mid ul{
+      width:380px;
+      margin:5px;
+      display:flex;
+      flex-direction: column;
+     margin:20px;
+      list-style: none;
+    }
+    .nav-mid li{
+      font-weight: bold;
+      margin:10px;
+      justify-content: space-around;
+    }
+    li a{
+      color:white;
+      font-size:15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    li a:hover{
+      text-decoration: none;
+      text-transform: uppercase;
+      color:aqua;
+    }
+    .nav-right{
+      height:100px;
+      width:100px;
+      justify-content: space-between;
+      margin:10px 20px 20px 190px;
+    }
+    .nav-item1 .nav-left{
+      justify-content: space-around;
+    }
+    .navbar-section .navbar>li>a{
+    color:white;
+    text-transform: uppercase;
+    }
+    
+    .nav-right button{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+    }
+    .nav-right button:hover{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+      color:black;
+      background-color: aqua;
+    }
+    .nav-right a{
+      text-decoration: none;
+      color:red;
+    }
+    .nav-right a:hover{
+      text-decoration: none;
+      color:black;
+      background-color: aqua;
+    }
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown a{
+      text-decoration: none;
+      color:white;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: gray;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: black;
+    }
+    .dropdown:hover .dropdown-content {display: block;
+    text-decoration: none;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.ContactUs{
+
+height:550px;
+width:500px;
+padding-left:25px;
+margin:40px 30px 0px 30px;
+display: flex;
+flex-direction: column;
+background-image:url(img/mobile.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.name{
+display: flex;
+}
+.fname input{
+width:90px;
+height:40px;
+display: flex;
+flex-direction: column;
+}
+.lname input
+{width:90px;
+height:40px;
+margin-left:10px;
+display: flex;
+flex-direction: column;
+}
+#name{
+color:rgb(230, 230, 245);
+font-size: 23px;
+}
+input{
+width:300px;
+height:40px;
+border:2px solid white;
+border-radius: 15px;
+}
+.msg{
+width:300px;
+height:80px;
+}
+input:hover{
+background-color:coral ;
+border:none;
+border-bottom: 1px solid black;
+border-radius: 0;
+}
+#submit{
+height:40px;
+width:150px;
+border-radius: 15px;
+color:red;
+font-size:20px;
+
+}
+}
+</style>
+</head>
+<body>
+    <nav class="navbar-section navbar-fixed-top" style="border-width: 2px; border-radius: 35px;">
+        <div class="nav-left"><img src="logo.png" alt="img"></div></div>
+        <div class="nav-mid">
+          <ul>
+            
+           <li class="active"><a href="index2.html">Home</a></li>
+           <li><a href="#second-section"><div class="dropdown">Menu
+    
+            <div id="myDropdown" class="dropdown-content">
+              <a href="breakfast&brunch.html">Breakfast</a>
+              <a href="maincourse.html">MainCourse</a>
+              <a href="deserts.html">Deserts</a>
+              <a href="drinks.html">Drinks</a>
+              
+            </div></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About Us</a></li></div>
+           <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
+          
+      
+          </ul>
+      </div>
+    </nav>
+    <form action="" class="ContactUs"><div class="contact-left">
+         
+            <h1 style="color:rgb(251, 243, 243)"; text-align="center";>ContactUs</h1>
+           
+            
+            <div class="name">
+            <label for="" id="name">Name</label><br></div>
+            <input type="name" name="" id="forminput" required><br><br>
+            <label for="" id="name">Email</label><br>
+            <input type="email" name="" id="forminput" required>
+            <br><br>
+            <label for="" id="name">Phone</label><br>
+            <input type="phone" name="" id="phone"  required>
+            <br><br>
+            <label for="" id="name">Write a message</label><br>
+            <input type="write a message" class="msg" id="forminput">
+            <br><br>
+            <button id="submit">submit</button>
+            </div>
+    </form>
+   
+
+</body>
+</html>

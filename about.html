@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height:600px;
+  width:100%;
+  
+}
+    .navbar-section{  width:85%;
+  height:80px;
+  background-color: black;
+  display:flex;
+  border:1px solid white;
+  border-radius:20px;
+  margin:20px 20px 20px 100px;
+ 
+}
+
+.nav-left{
+  height:100px;
+  width:200px;
+  display: flex;
+  
+}
+.nav-left img{
+  height:75px;
+  width:80px;
+  margin:0px;
+  border-radius: 15px;
+  margin-left:20px;
+}
+.nav-mid{
+  height:100px;
+  width:800px;
+
+}
+.nav-mid ul{
+  width:800px;
+  margin:25px;
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-mid li{
+ 
+  font-weight: bold;
+  justify-content: space-around;
+}
+li a{
+  color:white;
+  font-size:15px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:aqua;
+  
+
+}
+.nav-right{
+  height:100px;
+  width:300px;
+  justify-content: space-between;
+  margin:0px 20px 20px 70px;
+}
+.nav-right button{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+ color:red;
+ background-color: white;
+  margin:15px 10px 10px 50px;
+  font-weight: bold;
+}
+.nav-right button:hover{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+  margin:15px 10px 10px 50px;
+  font-weight: bold;
+  color:black;
+  background-color: aqua;
+}
+.nav-right a{
+  text-decoration: none;
+  color:red;
+  
+
+}
+.nav-right a:hover{
+  text-decoration: none;
+  color:black;
+  background-color: aqua;
+ 
+  
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.nav-item1 .nav-left{
+  justify-content: space-around;
+}
+.navbar-section .navbar>li>a{
+color:white;
+text-transform: uppercase;
+}
+.third-section{
+  margin:50px 0 0 0;
+  padding:0px;
+  height:550px;
+ width:100%;
+ background-color:aliceblue;
+ opacity:0.8;
+ color:black;
+ display: flex;
+}
+.third-left{
+  height:500px;
+  width:700px;
+}
+.text{
+  height:150px;
+  width:120px;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  margin:20px 0px 0px 30px;
+  color:black;
+  font-weight: bold;
+  margin-top:90px;
+}
+.third-section h3{
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.third-section p{
+  width:600px;
+  height:200px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.third-right{
+height:500px;
+width:650px;
+}
+.third-right img{
+  height:470px;
+  width:600px;
+  margin:90px 30px 30px 190px;
+}
+@media (max-width:2008px){
+	
+	.nav ul{
+		margin-right: 10px;
+        width: 100%;
+	}
+	.nav a{
+		font-size: 17px;
+	}
+}@media (max-width:509px){
+	body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin:0px;
+        height:1250px;
+        width:500px;
+    }
+    .navbar-section{
+      width:500px;
+      height:350px;
+      background-color: transparent;
+      display:flex;
+      flex-direction: column;
+      border:1px solid transparent;
+      border-radius:0px;
+      margin:0px;
+    }
+    .nav-left{
+      height:100px;
+      width:100px;
+      display: flex;
+    }
+    .nav-left img{
+      height:75px;
+      width:80px;
+      margin:0px;
+      border-radius: 15px;
+      margin-left:240px;
+    }
+    .nav-mid{
+      height:200px;
+      width:380px;
+      margin-left:190px;
+      padding:0;
+    }
+    .nav-mid ul{
+      width:380px;
+      margin:5px;
+      display:flex;
+      flex-direction: column;
+     
+      list-style: none;
+    }
+    .nav-mid li{
+      margin:10px;
+      font-weight: bold;
+      justify-content: space-around;
+    }
+    li a{
+      color:black;
+      font-size:15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    li a:hover{
+      text-decoration: none;
+      text-transform: uppercase;
+      color:aqua;
+    }
+    .nav-right{
+      height:100px;
+      width:100px;
+      justify-content: space-between;
+      margin:10px 20px 20px 220px;
+    }
+    .nav-item1 .nav-left{
+      justify-content: space-around;
+    }
+    .navbar-section .navbar>li>a{
+    color:white;
+    text-transform: uppercase;
+    }
+    .nav-right button{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+    }
+    .nav-right button:hover{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+      color:black;
+      background-color: aqua;
+    }
+    .nav-right a{
+      text-decoration: none;
+      color:red;
+    }
+    .nav-right a:hover{
+      text-decoration: none;
+      color:black;
+      background-color: aqua;
+    }
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown a{
+      text-decoration: none;
+      color:black;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: gray;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: black;
+    }
+    .dropdown:hover .dropdown-content {display: block;
+    text-decoration: none;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .third-section{
+      margin:50px 0 0 0;
+      padding:0px;
+      height:1050px;
+     width:100%;
+     background-color:rgb(215, 224, 148);
+     opacity:0.8;
+     color:black;
+     display: flex;
+     flex-direction: column;
+    }
+    .third-left{
+      height:500px;
+      width:500px;
+    }
+    .text{
+      height:150px;
+      width:120px;
+      display: flex;
+      font-size: 30px;
+      flex-direction: column;
+      margin:20px 0px 0px 30px;
+      color:black;
+      font-weight: bold;
+      margin-top:90px;
+    }/*width:120px;*/
+    .third-section h3{
+      height:50px;
+      width:400px;
+      font-size: 25px;
+      margin-left: 20px;
+      font-weight: bold;
+    }/*height:50px;
+      width:400px;
+    margin-left: 20px;*/
+    .third-section p{
+      width:400px;
+      height:220px;
+      font-size: 20px;
+      margin-left: 10px;
+    }/*width:400px;*/
+    .third-right{
+    height:500px;
+    width:650px;
+    }
+    .third-right img{
+      height:350px;
+      width:350px;
+      margin:90px 30px 30px 20px;
+    }
+}
+  </style>
+<body>
+    <nav class="navbar-section navbar-fixed-top" style="border-width: 2px; border-radius: 35px;">
+        <div class="nav-left"><img src="logo.png" alt="img"></div>
+        <div class="nav-mid">
+          <ul>
+            
+           <li class="active"><a href="index2.html">Home</a></li>
+           <li><a href="#second-section"><div class="dropdown">Menu
+    
+            <div id="myDropdown" class="dropdown-content">
+              <a href="breakfast&brunch.html">Breakfast</a>
+              <a href="maincourse.html">MainCourse</a>
+              <a href="deserts.html">Deserts</a>
+              <a href="drinks.html">Drinks</a>
+              
+            </div></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About Us</a></li></div>
+           <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
+          
+      
+          </ul>
+      </div>
+
+    </nav>
+    <div class="third-section"><div class="third-left"><div class="text">
+  <marquee behavior="slide"  direction="right"  loop="1">FRESH</marquee>
+  <marquee behavior="slide" direction="right" loop="1">TASTY</marquee>
+  <marquee behavior="slide" direction="right"  loop="1">SIMPLE</marquee></div>
+<h3>We’re bringing flavors from the Mexican to your plate</h3>
+<p>Authentic Mexican food is vibrant, delicious, fresh and fun. It is also colourful, spicy and uses an amazing array of chillies, both fresh and dried. Many ingredients are readily available everywhere, such as tomatoes, limes, coriander, red onion, avocado, and corn, and specialty ingredients are becoming more readily available in Australia and elsewhere.</p></div><div class="third-right"><img src="resta.jpg" alt="img">
+</div></div>
+     
+</body>
+</html>
